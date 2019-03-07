@@ -1,0 +1,41 @@
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ancor h2:hover{
+	border-bottom: 3px solid red;
+}
+
+.img-cicle{
+	border-radius: 50%;
+}
+
+.visible {
+  visibility: visible ;
+}
+.invisible {
+  visibility: hidden !important;
+}
+
+@media only screen and (max-width: 1000px) {
+  .useless {
+    display: none;
+  }
+}
+
+.zig-zag-line {
+    border: none;
+    width: 100%;
+    margin: auto;
+    margin-top: 7%;
+    height: 30px;
+    background: linear-gradient(135deg, #ED1C24 20%, transparent 25%) -20px 0,
+    linear-gradient(225deg, #ED1C24 25%, transparent 20%) -20px 0,
+    linear-gradient(315deg, #c3c3c3 25%, transparent 20%),
+    linear-gradient(45deg, #c3c3c3 25%, transparent 20%);
+    background-size: 30px 30px;
+    background-color: #ED1C24;
+}
